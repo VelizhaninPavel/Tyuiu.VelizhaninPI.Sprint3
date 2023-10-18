@@ -15,7 +15,7 @@ namespace Tyuiu.VelizhaninPI.Sprint3.Task0.V19.Lib
             int i;
             for (i = startValue; i <= stopValue; i++)
             {
-                sumSeries += Math.Pow((1 / (Math.Cos(1) + 2)), 2);
+                sumSeries += Math.Pow((1 / (Math.Cos(i) + 2)), 2);
             }
             return Math.Round(sumSeries, 3);
         }
