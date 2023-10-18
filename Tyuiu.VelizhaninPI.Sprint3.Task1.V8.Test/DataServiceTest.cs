@@ -8,7 +8,7 @@ namespace Tyuiu.VelizhaninPI.Sprint3.Task1.V8.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidGetMultiplySeries1()
+        public void ValidSumSeries()
         {
             DataService ds = new DataService();
 
@@ -16,7 +16,7 @@ namespace Tyuiu.VelizhaninPI.Sprint3.Task1.V8.Test
             int startValue = 1;
             int stopValue = 15;
 
-            double res = ds.GetMultiplySeries(value, startValue, stopValue);
+            double res = ds.GetSumSeries(value, startValue, stopValue);
             double wait = 18.980;
 
             Assert.AreEqual(wait, res);

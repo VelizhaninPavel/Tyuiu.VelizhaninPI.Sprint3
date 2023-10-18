@@ -41,7 +41,7 @@ namespace Tyuiu.VelizhaninPI.Sprint3.Task1.V8
             Console.WriteLine("* РЕЗУЛЬАТ:                                                               *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Сумма равна " + ds.GetMultiplySeries(value, startValue, stopValue));
+            Console.WriteLine("Сумма равна " + ds.GetSumSeries(value, startValue, stopValue));
             Console.ReadLine();
         }
     }
