@@ -32,7 +32,7 @@ namespace Tyuiu.VelizhaninPI.Sprint3.Task1.V8
 
             double value = 0.25;
             int startValue = 1;
-            int stopValue = 15;
+            int stopValue = 7;
             Console.WriteLine("Значение x = " + value);
             Console.WriteLine("Начало шага = " + startValue);
             Console.WriteLine("Конец шага = " + stopValue);
@@ -41,7 +41,7 @@ namespace Tyuiu.VelizhaninPI.Sprint3.Task1.V8
             Console.WriteLine("* РЕЗУЛЬАТ:                                                               *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Сумма равна " + ds.GetSumSeries(value, startValue, stopValue));
+            Console.WriteLine("Произведение равно " + ds.GetSumSeries(value, startValue, stopValue));
             Console.ReadLine();
         }
     }

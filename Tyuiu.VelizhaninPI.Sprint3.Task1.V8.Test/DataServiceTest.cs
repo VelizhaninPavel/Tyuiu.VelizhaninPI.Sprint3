@@ -14,10 +14,10 @@ namespace Tyuiu.VelizhaninPI.Sprint3.Task1.V8.Test
 
             double value = 0.25;
             int startValue = 1;
-            int stopValue = 15;
+            int stopValue = 7;
 
             double res = ds.GetSumSeries(value, startValue, stopValue);
-            double wait = 7.833;
+            double wait = -302185.684;
 
             Assert.AreEqual(wait, res);
 

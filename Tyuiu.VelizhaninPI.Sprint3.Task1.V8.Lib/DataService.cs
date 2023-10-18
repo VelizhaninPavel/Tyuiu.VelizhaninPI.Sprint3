@@ -11,10 +11,10 @@ namespace Tyuiu.VelizhaninPI.Sprint3.Task1.V8.Lib
     {
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
-            double SumSeries = 0;
+            double SumSeries = 1;
             while (startValue <= stopValue)
             {
-                SumSeries += Math.Pow((1 / (Math.Cos(startValue) + Math.Pow(value, startValue))), startValue);
+                SumSeries *= Math.Pow((1 / (Math.Cos(startValue) + Math.Pow(value, startValue))), startValue);
                 startValue++;
             }
             return Math.Round(SumSeries, 3);
