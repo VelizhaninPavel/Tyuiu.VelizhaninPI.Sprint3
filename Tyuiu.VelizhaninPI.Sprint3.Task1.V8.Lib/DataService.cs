@@ -14,7 +14,7 @@ namespace Tyuiu.VelizhaninPI.Sprint3.Task1.V8.Lib
             double SumSeries = 0;
             while (startValue <= stopValue)
             {
-                SumSeries += Math.Pow((1 / (Math.Cos(1) + Math.Pow(value, 1))), 1);
+                SumSeries += Math.Pow((1 / (Math.Cos(startValue) + Math.Pow(value, startValue))), startValue);
                 startValue++;
             }
             return Math.Round(SumSeries, 3);
